@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>رسالة تحذيرية باستخدام Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    .alert-clickable {
+      cursor: pointer;
+    }
+  </style>
+  <script>
+    $(document).ready(function(){
+      $(".alert-clickable").click(function(){
+        $(this).fadeOut();
+      });
+      
+      $(".close").click(function(){
+        $(this).closest(".alert").fadeOut();
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="alert alert-warning alert-dismissible fade show alert-clickable">
+      <button type="button" class="close">&times;</button>
+      <strong>تحذير!</strong> هذه رسالة تحذيرية.
+    </div>
+    <button type="button" class="btn btn-primary">اظهر الرسالة</button>
+  </div>
+</body>
+</html>
