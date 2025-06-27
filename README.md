@@ -10,15 +10,18 @@ A few resources to get you started if this is your first Flutter project:
 
 ## Screenshots
 
+<h2>Screenshots</h2>
+
 <p float="left">
-  <img src="ui/1.jpg" width="45%" />
-  <img src="ui/2.jpg" width="45%" />
+  <img src="ui/1.jpg" width="45%" style="margin-right:10px;" />
+  <img src="ui/2.jpg" width="45%" style="margin-left:10px;" />
 </p>
 
 <p float="left">
-  <img src="ui/3.jpg" width="45%" />
-  <img src="ui/4.jpg" width="45%" />
+  <img src="ui/3.jpg" width="45%" style="margin-right:10px;" />
+  <img src="ui/4.jpg" width="45%" style="margin-left:10px;" />
 </p>
+
 
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
