@@ -11,13 +11,13 @@ A few resources to get you started if this is your first Flutter project:
 ## Screenshots
 
 <p float="left">
-  <img src="1.jpg" width="45%" />
-  <img src="2.jpg" width="45%" />
+  <img src="ui/1.jpg" width="45%" />
+  <img src="ui/2.jpg" width="45%" />
 </p>
 
 <p float="left">
-  <img src="3.jpg" width="45%" />
-  <img src="4.jpg" width="45%" />
+  <img src="ui/3.jpg" width="45%" />
+  <img src="ui/4.jpg" width="45%" />
 </p>
 
 
